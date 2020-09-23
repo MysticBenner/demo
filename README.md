@@ -27,8 +27,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 - 按文件目录上传（能选择不同的文件类型）：DirectoryUploader.vue
 
 ##引入pluploader
-##### 参考了gaoyuyue的项目，项目地址 (https://github.com/gaoyuyue/MyUploader.git)，将plupload封装为成一个vue组件Uploader.vue，这里也采用了这种方式直接使用了。以下是原文关于这部分的介绍，如下
-
+##### 参考了gaoyuyue的项目，项目地址 (https://github.com/gaoyuyue/MyUploader.git)
 ###使用Uploader组件必须要配置的参数：
 - browse_button： 选择文件button的id
 - url： 文件上传地址
