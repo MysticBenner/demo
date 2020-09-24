@@ -20,15 +20,15 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-#前端实现
-##组件列表
+# 前端实现
+## 组件列表
 - 单文件上传：SingleUpload.vue
 - 多文件上传：MultiFileUploader.vue
 - 按文件目录上传（能选择不同的文件类型）：DirectoryUploader.vue
 
-##引入pluploader
+## 引入pluploader
 ##### 参考了gaoyuyue的项目，项目地址 (https://github.com/gaoyuyue/MyUploader.git)
-###使用Uploader组件必须要配置的参数：
+### 使用Uploader组件必须要配置的参数：
 - browse_button： 选择文件button的id
 - url： 文件上传地址
 - inputUploader方法： 用于获取uploader对象
